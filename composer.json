@@ -1,0 +1,23 @@
+{
+    "name": "montz/digital-cep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Eduardo Montezuma",
+            "email": "carlos15montezuma@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Wead\\DigitalCep\\": "src/"
+        }
+    }
+}
